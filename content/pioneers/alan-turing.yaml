@@ -1,0 +1,24 @@
+name: "Alan Turing"
+birthYear: 1912
+deathYear: 1954
+era: "The Theoretical Foundations"
+portraitImage: "/images/pioneers/alan-turing.jpg"
+contribution: "Formalized the concept of computation with the Turing Machine, establishing the theoretical limits and possibilities of computing before physical computers existed."
+fullBio: |
+  Alan Mathison Turing was an English mathematician, computer scientist,
+  logician, cryptanalyst, philosopher, and theoretical biologist. Turing
+  was highly influential in the development of theoretical computer science.
+
+  His 1936 paper "On Computable Numbers" introduced the Turing Machine — an
+  abstract model of computation that defined what it means for a function to
+  be computable. This work established the theoretical foundations for all
+  modern computers and proved the existence of problems no computer can solve
+  (the Halting Problem).
+
+  During World War II, Turing led the effort to crack the Enigma cipher,
+  shortening the war by an estimated two to four years. After the war, he
+  designed one of the first stored-program computers and published the
+  foundational paper on machine intelligence, introducing what became known
+  as the Turing Test.
+quote: "We can only see a short distance ahead, but we can see plenty there that needs to be done."
+linkedVisualization: null

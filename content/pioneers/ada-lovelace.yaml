@@ -1,0 +1,18 @@
+name: "Ada Lovelace"
+birthYear: 1815
+deathYear: 1852
+era: "The Dawn of Computing"
+portraitImage: "/images/pioneers/ada-lovelace.jpg"
+contribution: "Wrote the first algorithm intended for machine execution, recognizing that computers could go beyond pure calculation."
+fullBio: |
+  Augusta Ada King, Countess of Lovelace, was an English mathematician
+  and writer. She is chiefly known for her work on Charles Babbage's
+  proposed mechanical general-purpose computer, the Analytical Engine.
+
+  Her notes on the engine include what is recognized as the first
+  algorithm intended to be carried out by a machine — a method for
+  computing Bernoulli numbers. More remarkably, Lovelace understood
+  that the Engine could be used for purposes beyond arithmetic,
+  anticipating the general-purpose computer by a century.
+quote: "The Analytical Engine weaves algebraic patterns, just as the Jacquard loom weaves flowers and leaves."
+linkedVisualization: null

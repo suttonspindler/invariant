@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx:*)",
+      "Bash(mv invariant-app/* invariant-app/.* .)",
+      "Bash(rm -rf invariant-app)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
