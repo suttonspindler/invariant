@@ -4,7 +4,10 @@
       "Bash(npx:*)",
       "Bash(mv invariant-app/* invariant-app/.* .)",
       "Bash(rm -rf invariant-app)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ]
   }
 }

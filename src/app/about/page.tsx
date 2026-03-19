@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Why Invariant exists — on the name, the thesis, and the gap between writing code and understanding computation.",
+    "Why Invariant exists: on the name, the thesis, and the gap between writing code and understanding computation.",
 };
 
 export default function AboutPage() {
@@ -29,7 +29,7 @@ export default function AboutPage() {
 
         <p>
           This site is named after that idea. The thesis is that certain
-          principles of Computer Science work the same way — they are true
+          principles of Computer Science work the same way, they are true
           regardless of how the tools around them change. Big O complexity does
           not care what language you write in. The tradeoffs in system design do
           not change because an AI generated the code. The reason a recursive
@@ -40,14 +40,14 @@ export default function AboutPage() {
           AI code-generation tools have made it easier than ever to produce
           working software without deeply understanding it. That is mostly a
           good thing. But it widens the gap between writing code and
-          understanding computation — and that gap has always mattered for
+          understanding computation, and that gap has always mattered for
           anyone who wants to build systems that are correct, efficient, and
           maintainable.
         </p>
 
         <p>
           Invariant is a resource for closing that gap. It is built by a single
-          developer, for the self-taught and the curious — people who can
+          developer, for the self-taught and the curious, people who can
           already write code and want to understand the theory behind it.
         </p>
       </div>
