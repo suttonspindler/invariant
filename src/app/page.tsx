@@ -1,4 +1,9 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Invariant — Interactive Computer Science Education",
+};
 
 const pillars = [
   {
@@ -42,15 +47,20 @@ export default function HomePage() {
           INVARIANT
         </h1>
         <p className="mb-8 text-xl leading-relaxed text-zinc-300">
-          Certain principles of Computer Science remain true regardless of how
-          AI transforms the industry.
+          A free, interactive resource for learning Computer Science fundamentals.
         </p>
         <p className="max-w-2xl text-base leading-relaxed text-zinc-400">
-          AI tools can write a working function in seconds. They cannot tell you{" "}
-          <em>why</em> merge sort is O(n log n), <em>when</em> dynamic
-          programming applies, or <em>how</em> to architect a system that
-          scales. Invariant is built around what you still need to understand
-          yourself.
+          Interactive algorithm visualizations, profiles of the pioneers who
+          built the field, and writing on the concepts that underpin modern
+          software.
+        </p>
+        <p className="mt-6">
+          <Link
+            href="/about"
+            className="font-mono text-xs text-zinc-600 transition-colors hover:text-zinc-400"
+          >
+            Why this exists →
+          </Link>
         </p>
       </section>
 

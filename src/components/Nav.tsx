@@ -7,6 +7,7 @@ const links = [
   { href: "/lab", label: "Lab" },
   { href: "/hall-of-fame", label: "Hall of Fame" },
   { href: "/blog", label: "The Ledger" },
+  { href: "/about", label: "About" },
 ];
 
 export default function Nav() {
