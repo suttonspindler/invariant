@@ -54,14 +54,6 @@ export default function HomePage() {
           built the field, and writing on the concepts that underpin modern
           software.
         </p>
-        <p className="mt-6">
-          <Link
-            href="/about"
-            className="font-mono text-xs text-zinc-600 transition-colors hover:text-zinc-400"
-          >
-            Why this exists →
-          </Link>
-        </p>
       </section>
 
       {/* Divider */}
