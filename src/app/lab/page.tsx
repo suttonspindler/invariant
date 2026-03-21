@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import LabClient from "./LabClient";
 
 export const metadata: Metadata = {
   title: "The Interactive Lab",
@@ -27,17 +28,7 @@ export default function LabPage() {
 
         <div className="h-px w-full bg-zinc-800 mb-16" aria-hidden="true" />
 
-        {/* Coming soon placeholder */}
-        <div className="flex flex-col items-center justify-center rounded-sm border border-zinc-800 py-32 text-center">
-          <p className="font-mono text-4xl text-zinc-700 mb-6" aria-hidden="true">∫</p>
-          <p className="font-mono text-xs tracking-[0.25em] text-zinc-500 uppercase mb-3">
-            Coming in Phase 2
-          </p>
-          <p className="text-sm text-zinc-500 max-w-sm">
-            The visualization engine is under construction. First up: Fibonacci
-            memoization and 0/1 Knapsack.
-          </p>
-        </div>
+        <LabClient />
       </section>
     </div>
   );
